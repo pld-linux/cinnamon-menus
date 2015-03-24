@@ -4,12 +4,12 @@
 
 Summary:	A menu system for the Cinnamon project
 Name:		cinnamon-menus
-Version:	2.4.0
+Version:	2.4.1
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 Source0:	https://github.com/linuxmint/cinnamon-menus/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	55bb91d9882c8c5d9972fbdc444a4c9f
+# Source0-md5:	e61dbeb08e55a0ad0ee518d7e980fb50
 URL:		http://cinnamon.linuxmint.com/
 BuildRequires:	glib2-devel
 BuildRequires:	gobject-introspection-devel
