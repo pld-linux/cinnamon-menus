@@ -13,7 +13,6 @@ Source0:	https://github.com/linuxmint/cinnamon-menus/archive/%{version}/%{name}-
 URL:		http://cinnamon.linuxmint.com/
 BuildRequires:	glib2-devel
 BuildRequires:	gobject-introspection-devel
-BuildRequires:	intltool
 BuildRequires:	pkgconfig
 BuildRequires:	python-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
