@@ -5,13 +5,13 @@
 Summary:	A menu system for the Cinnamon desktop
 Summary(pl.UTF-8):	System menu dla środowiska Cinnamon
 Name:		cinnamon-menus
-Version:	4.6.0
+Version:	4.8.3
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 #Source0Download: https://github.com/linuxmint/cinnamon-menus/releases
 Source0:	https://github.com/linuxmint/cinnamon-menus/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	0d748dca8c7fa1060d642c25513ab151
+# Source0-md5:	07b78c4d44bd1812d36d30043c3339dd
 URL:		https://github.com/linuxmint/cinnamon
 BuildRequires:	glib2-devel >= 1:2.30
 BuildRequires:	gobject-introspection-devel >= 0.9.5
@@ -19,6 +19,7 @@ BuildRequires:	gobject-introspection-devel >= 0.9.5
 BuildRequires:	meson >= 0.40.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 1.736
 Requires:	glib2 >= 1:2.30
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -50,6 +51,7 @@ wykorzystujących system menu Cinnamon.
 Summary:	API documentation for Cinnamon menu library
 Summary(pl.UTF-8):	Dokumentacja API biblioteki Cinnamon menu
 Group:		Documentation
+BuildArch:	noarch
 
 %description apidocs
 API documentation for Cinnamon menu library.
