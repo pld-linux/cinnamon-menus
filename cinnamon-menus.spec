@@ -5,13 +5,13 @@
 Summary:	A menu system for the Cinnamon desktop
 Summary(pl.UTF-8):	System menu dla środowiska Cinnamon
 Name:		cinnamon-menus
-Version:	4.8.3
+Version:	5.0.0
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 #Source0Download: https://github.com/linuxmint/cinnamon-menus/releases
 Source0:	https://github.com/linuxmint/cinnamon-menus/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	07b78c4d44bd1812d36d30043c3339dd
+# Source0-md5:	39acb2e3c693b56975e85e25a23fb5c8
 URL:		https://github.com/linuxmint/cinnamon
 BuildRequires:	glib2-devel >= 1:2.30
 BuildRequires:	gobject-introspection-devel >= 0.9.5
