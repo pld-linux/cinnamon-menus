@@ -5,18 +5,18 @@
 Summary:	A menu system for the Cinnamon desktop
 Summary(pl.UTF-8):	System menu dla środowiska Cinnamon
 Name:		cinnamon-menus
-Version:	5.8.0
+Version:	6.0.0
 Release:	1
 License:	LGPL v2+
 Group:		Libraries
 #Source0Download: https://github.com/linuxmint/cinnamon-menus/tags
 Source0:	https://github.com/linuxmint/cinnamon-menus/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	d664458ee4469d1bbd8f971a2cd37ee6
+# Source0-md5:	9e10b0e9839e83e3b1264366c565340b
 URL:		https://github.com/linuxmint/cinnamon
 BuildRequires:	glib2-devel >= 1:2.30
 BuildRequires:	gobject-introspection-devel >= 0.9.5
 %{?with_apidocs:BuildRequires:	gtk-doc}
-BuildRequires:	meson >= 0.40.0
+BuildRequires:	meson >= 0.56.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	pkgconfig
 BuildRequires:	rpm-build >= 4.6
